@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>belajar 4</title>
+</head>
+<body>
+	<h1>patrik</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<ul>
+		<li>home</li>
+		<li>cotact</li>
+	</ul>
+
+	<form>
+		<input type="button" value="button" id="btn">
+		<input type="button" value="kirim" id="btn1">
+	</form>
+
+<script type="text/javascript">
+	//function 
+	const nama = ['patrik william', 'jason statham', 'mark', 'bill gates',];
+	const p = document.querySelector('p'); 
+
+	function myfunction() {
+		for( var i = 0; i < nama.length; i++ ) {
+			alert(nama[i]);
+		}
+		if (true) {
+			function button() {
+
+				document.body.style.backgroundColor = "#444";
+			}
+
+			const btn = document.querySelector('#btn');
+			btn.onclick = button;
+
+		}else{
+
+			 function button1() {
+			 	document.body.style.backgroundColor = "#000";
+			 }
+
+			 const btn1 = document.querySelector('#btn1');
+			 btn1.onclick = 'button1';
+
+		}
+	}
+	
+	myfunction();
+
+
+</script>
+</body>
+</html>

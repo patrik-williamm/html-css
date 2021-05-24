@@ -1,0 +1,183 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand',sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	font:16px/28px arial, sans-serif;
+	background-color: rgb(4, 0, 0);
+	color: #333;
+	border-radius: 12px;
+}
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+.header{
+	padding: 30px;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+	border: 1px solid;
+	padding: 24px;
+	text-transform: uppercase;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	float: right;
+	border: 1px solid;
+	padding: 20px;
+}
+
+.header a{
+	text-decoration: none;
+	color: salmon;
+	padding: -3px;
+}
+
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero img{
+	height:277px;
+	top: 25px;
+	border-top: 5px solid lightskyblue;
+	border-bottom: 5px solid lightskyblue;
+	border-right: 5px solid red;
+	border-left: 5px solid red;
+}
+
+.content{
+	padding: 25px;
+	margin-left: 40px;
+}
+
+.content h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.content .penulis{
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.content p{
+	margin-bottom: 10px;
+	font-size: 12px
+}
+
+.container2{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+.header2{
+	padding:5px;
+}
+
+.header2 ul li{
+	display: inline-block;
+	padding: 12px;
+}
+
+.header2 h1{
+	margin-left:  50px;
+	font-size: 34px
+
+}
+.header2 a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero2 img{
+	height: 310px;
+	border-top: 5px solid red;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.content2{
+	margin-left: 40px;
+}
+
+.content2 p{
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.container3{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+
+
+}
+
+.header3{
+	padding: 5px;
+	
+}
+
+.header3 h1{
+	font-size: 34px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+.header3 ul li{
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.header3 a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero3 img{
+	position: relative;
+	z-index: 1;
+	width:790px;
+	border: 5px solid red;
+
+}
+
+.input form{
+	position: absolute;
+	z-index: 2;
+	margin-top: 70px;
+	margin-left: 50PX;
+	padding: 20px;
+	border: 30px;
+	border-radius: : 12px;
+}
+
+.input button{
+	position: absolute;
+	z-index: 2;
+	margin-top: 130px;
+	margin-left: 70PX;
+	padding: 20px;
+	color: blue;
+	border:12px;
+	border-radius: 12px;
+	border-right-width: 100px;
+}

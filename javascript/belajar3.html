@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>belajar 3</title>
+</head>
+<body>
+	<h1>patrik</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<ul>
+		<li>home</li>
+		<li>cotact</li>
+	</ul>
+
+	<form>
+		<input type="button" value="button" id="btn" onclick="ubahColor()">
+		<input type="button" value="kirim" id="btn1">
+	</form>
+<script type="text/javascript">
+	//dom manipulation
+	//membuat dom -> createElement -> createTextNode -> appendChild
+	const p = document.createElement('p');
+	const txtP = document.createTextNode('ini adalah text baru dari patri william');
+
+	p.appendChild(txtP);
+
+	const para = document.querySelector('p');
+	para.appendChild(p);
+
+	//memasukkan dom -> insertBefore
+	const liNew = document.createElement('li');
+	const txtLi = document.createTextNode('About');
+
+	liNew.appendChild(txtLi);
+
+	//membuat element
+	const nav = document.querySelector('ul');
+	nav.setAttribute('class', 'navbar');
+
+	const ul = document.querySelector('ul');
+	const li = ul.querySelector('li:nth-child(2)');
+
+	ul.appendChild(li);
+
+	ul.insertBefore(liNew, li);
+
+</script>
+</body>
+</html>

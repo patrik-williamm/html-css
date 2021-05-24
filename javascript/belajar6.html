@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>belajar 6</title>
+</head>
+<body>
+ <h1>patrik</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<ul>
+		<li>home</li>
+		<li>cotact</li>
+	</ul>
+
+	<form>
+		<input type="button" value="button" id="btn">
+		<input type="button" value="button" id="btn1">
+	</form>
+
+<script type="text/javascript">
+	
+	//menambah element dan teks
+	function menambahElement() {
+		const pNew = document.createElement('p');
+		const txtp = document.createTextNode('patrik williamm | mahasiswa | web developer | mobile developer');
+
+		pNew.appendChild(txtp);
+
+		const p = document.querySelector('p');
+		p.appendChild(pNew);
+	}
+	const btn = document.querySelector('#btn');
+	btn.onclick = menambahElement;
+
+	//menghapus elemet dan teks
+	function menghapusElement() {
+		const pNew = document.querySelector('p');
+		const pHps = document.querySelector('pNew');
+		pNew.removeChild(pHapus);
+	}
+	const btn1 = document.querySelector('btn1');
+	btn1.onclick = menghapusElement;
+</script>
+</body>
+</html>
